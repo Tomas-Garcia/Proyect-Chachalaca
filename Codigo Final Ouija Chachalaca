@@ -3,7 +3,6 @@
  #include <windows.h>
  #include <string.h>
  #include <bits/stdc++.h>
- //Hola Proyecto de optimizaión
  
  using namespace std;
  
