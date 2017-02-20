@@ -162,7 +162,7 @@
  +	}
  +	else
  +	{
- +		cout << "Tú eres un simple mortal" << endl ;
+  +		cout << "TÚ ERES UN SIMPLE MORTAL" << endl ;
  +		goto inicio;
  +	}
  +	getchar();
