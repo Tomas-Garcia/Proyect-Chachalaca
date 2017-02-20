@@ -65,6 +65,8 @@
  +	Sleep(50);
  +	system("color BA");
  +	Sleep(50);
+ +	system("color FA");
+ +	Sleep(50);
  +	system("color DA");
  +	Sleep(50);
  +	system("color EA");
