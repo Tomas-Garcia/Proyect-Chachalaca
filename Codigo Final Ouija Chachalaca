@@ -1,4 +1,4 @@
-#include <iostream>
+ #include <iostream>
  #include <conio.h>
  #include <windows.h>
  #include <string.h>
@@ -88,7 +88,7 @@
  	cout << "Bienvenido a la Ouija, diga las palabras mágicas [Solo si eres todopoderoso]"<<endl;
  	char pass[1];
  	char pass2[1];
- 	inicio:
+ 	start:
  	pass[1] = getch();
  	char nom[9];
  	if(pass[1] == ',')
@@ -142,6 +142,7 @@
  	cout << "a";
  	getchar();
  	getchar();
+  
  	if(nom[0] == '.')
  	cout << endl<< "Los chamucos de la Ouija no estan disponibles el dia de hoy";
  	if(nom[0] == '?')
@@ -154,7 +155,7 @@
  	cout << endl<< "Ni Beas conoce la respuesta";
  	if(nom[0] == '-')
  	cout << endl<< "Tú inteligencia no es apta para tal obra maestra";
- 	if(nom[0] == '¿')
+ 	if(nom[0] == ',')
  	cout << endl<< "No eres digno de conocer los secretos del universo";
  	else if(nom[0] != '¿' && nom[0] != '.' && nom[0] != '?' && nom[0] != '/' && nom[0] != '+' && nom[0] != '*' && nom[0] != '-')
  	cout<<endl << nom;
@@ -162,7 +163,7 @@
  	else
  	{
   		cout << "TÚ ERES UN SIMPLE MORTAL" << endl ;
- 		goto inicio;
+ 		goto start;
  	}
  	getchar();
  }
