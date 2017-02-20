@@ -4,7 +4,7 @@
  +#include <string.h>
  +#include <stdlib.h>
  +#include <bits/stdc++.h>
- +//Hola Proyecto de optimizaión
+ +//Hola USM, bienvenido a la oija
  +
  +using namespace std;
  +
@@ -166,5 +166,5 @@
   +		cout << "TÚ ERES UN SIMPLE MORTAL" << endl ;
  +		goto inicio;
  +	}
- +	getchar();
+ +	system("PAUSE")
  +}
